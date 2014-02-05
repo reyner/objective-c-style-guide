@@ -127,11 +127,11 @@ Some of Apple’s APIs write garbage values to the error parameter (if non-NULL)
 
 ## Methods
 
-In method signatures, there should be a space after the scope (-/+ symbol). There should be a space between the method segments. There should also be a space after the return value.
+In method signatures, there should be a space after the scope (-/+ symbol). There should be a space between the method segments. 
 
 **For Example**:
 ```objc
-- (void) setExampleText:(NSString *)text image:(UIImage *)image;
+- (void)setExampleText:(NSString *)text image:(UIImage *)image;
 ```
 ## Variables
 
@@ -224,7 +224,7 @@ Public functions and classes should be commented in a format that Xcode 5 can re
 `init` methods should be structured like this:
 
 ```objc
-- (instancetype) init {
+- (instancetype)init {
     self = [super init]; // or call the designated initalizer
     if (self) {
         // Custom initialization
